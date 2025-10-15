@@ -24,7 +24,7 @@ function billcalculater(){
      }
 
       if(unit > 200 && unit<=400){
-      amt +=((unit - 200) * 5)/2;
+      amt +=((unit - 200) * 4.5)/2;
       unit = 200;
       }
       if(unit <= 200){
